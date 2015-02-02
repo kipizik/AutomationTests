@@ -1,2 +1,4 @@
 # AutomationTests
-My first GIt repository
+My first Git repository
+
+Something about me
