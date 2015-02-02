@@ -1,0 +1,13 @@
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\chromedriver.exe
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\Hotline_Autotests.dll
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\Hotline_Autotests.pdb
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\nunit.framework.dll
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.dll
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.Support.dll
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\Xenon.dll
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\Xenon.Selenium.dll
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\nunit.framework.xml
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.xml
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.Support.xml
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.dll
+c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.pdb
