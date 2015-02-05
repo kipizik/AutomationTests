@@ -12,10 +12,12 @@ D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\Web
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.dll
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.pdb
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\TechTalk.SpecFlow.dll
-D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.specs.csprojResolveAssemblyReference.cache
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\Gherkin.dll
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\IKVM.OpenJDK.Core.dll
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\IKVM.Runtime.dll
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\IKVM.OpenJDK.Util.dll
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\IKVM.OpenJDK.Security.dll
 D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\IKVM.OpenJDK.Text.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\NLog.config
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\NLog.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\NLog.xml

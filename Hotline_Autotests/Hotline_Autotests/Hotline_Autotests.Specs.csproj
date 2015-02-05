@@ -33,6 +33,10 @@
     <Reference Include="Gherkin">
       <HintPath>C:\Users\Вова\AppData\Local\Microsoft\VisualStudio\11.0\Extensions\b2h35fse.blr\Gherkin.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Build.Framework" />
+    <Reference Include="NLog">
+      <HintPath>..\packages\NLog.3.2.0.0\lib\net45\NLog.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.core.interfaces">
       <HintPath>..\packages\SpecFlow.NUnit.Runners.1.0.0\..\NUnit.Runners.2.6.4\tools\lib\nunit.core.interfaces.dll</HintPath>
     </Reference>
@@ -61,7 +65,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\TestConfiguration.cs" />
-    <Compile Include="Helpers\Logger.cs" />
     <Compile Include="Pages\BasePage.cs" />
     <Compile Include="Pages\MainPage_Locators.cs" />
     <Compile Include="Pages\ProductPage_Locators.cs" />
@@ -80,6 +83,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="HotlineTests.log" />
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
     <None Include="SpecFlowFeature1.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

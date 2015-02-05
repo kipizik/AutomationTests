@@ -1,0 +1,10 @@
+2015-02-05 17:24:49.5330 WARN Test <UserIsOnMainPage> was FAILED. Message:   Expected: True
+  But was:  False
+   в NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   в NUnit.Framework.Assert.True(Boolean condition)
+   в Hotline_Autotests.Tests.UserIsOnMainPage() в d:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\Tests.cs:строка 42
+2015-02-05 17:28:44.8445 WARN Test <UserIsOnMainPage> was FAILED. Message: Current Url doesn't contain neccessary word.
+2015-02-05 17:29:58.0827 WARN Test <UserIsOnMainPage> was FAILED. Message: Current Url doesn't contain neccessary word.   в NUnit.Framework.Assert.That(Object actual, IResolveConstraint expression, String message, Object[] args)
+   в NUnit.Framework.Assert.True(Boolean condition)
+   в Hotline_Autotests.Tests.UserIsOnMainPage() в d:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\Tests.cs:строка 42
+2015-02-05 17:35:10.5296 WARN Test <UserIsOnMainPage> was Passed. Message: No message

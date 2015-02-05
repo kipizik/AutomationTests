@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Hotline_Autotests.Helpers;
 using Hotline_Autotests.Pages;
+using NLog;
+using NLog.Fluent;
+using NUnit.Core;
 using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Firefox;
 
 namespace Hotline_Autotests
 {
@@ -17,6 +14,9 @@ namespace Hotline_Autotests
     {
         private String _url;
         private IWebDriver _driver;
+        private static readonly NLog.Logger logger = LogManager.GetLogger("MyLogger");
+        private String message = "No message";
+        private String stackTrace = "No information";
 
         [SetUp]
         public void BeforeTest()
@@ -39,7 +39,19 @@ namespace Hotline_Autotests
             MainPage main = new MainPage();
             main.Open(_url).Refresh();
 
-            Assert.True(_driver.Url.Contains("hotline"));
+            try
+            {
+                Assert.True(_driver.Url.Contains("hotline"));
+            }
+            catch (Exception ex)
+            {
+                Exception NewEx = new Exception("Current Url is not valid.", ex);
+                message = NewEx.Message;
+                stackTrace = ex.StackTrace;
+                throw;
+            }
+
+
         }
 
         [Test]
@@ -56,6 +68,16 @@ namespace Hotline_Autotests
         [TearDown]
         public void AfterTest()
         {
+            //log results
+            if (TestContext.CurrentContext.Result.Status == TestStatus.Failed)
+            {
+                logger.Warn("Test <{0}> was FAILED. Message: {1}.\n StackTrace: {2}", TestContext.CurrentContext.Test.Name, message, stackTrace);
+            }
+            else if (TestContext.CurrentContext.Result.Status == TestStatus.Passed)
+            {
+                logger.Warn("Test <{0}> was Passed. Message: {1}", TestContext.CurrentContext.Test.Name, message);
+            }
+
             _driver.Quit();
         }
 
