@@ -11,3 +11,18 @@ c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotlin
 c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.Support.xml
 c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.dll
 c:\users\вова\documents\visual studio 2012\Projects\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.pdb
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\chromedriver.exe
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\Hotline_Autotests.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\Hotline_Autotests.pdb
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\nunit.framework.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.Support.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\nunit.framework.xml
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.xml
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\WebDriver.Support.xml
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.csprojResolveAssemblyReference.cache
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\obj\Debug\Hotline_Autotests.pdb
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\Hotline_Autotests.dll.config
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\nunit.core.interfaces.dll
+D:\Vova\GitHub\AutomationTests\Hotline_Autotests\Hotline_Autotests\bin\Debug\TechTalk.SpecFlow.dll
